@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    color: #202124;
+    background: #f5f7fa;
+}
+
+main {
+    max-width: 42rem;
+    margin: 0 auto;
+    padding: 1.5rem;
+    background: #fff;
+    border-radius: 0.5rem;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+input,
+button {
+    padding: 0.5rem 0.75rem;
+    font: inherit;
+}
+
+#number-list {
+    columns: 2;
+}
